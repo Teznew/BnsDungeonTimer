@@ -1,0 +1,121 @@
+[
+    {
+        "stage_name": "第 1 次机制",
+        "details": [
+            {
+                "title": "雷传风",
+                "timestamp": "00:43"
+            },
+            {
+                "title": "风T拉远重置防后撤步",
+                "timestamp": "00:48"
+            },
+            {
+                "title": "第 1 次全屏",
+                "timestamp": "01:03"
+            },
+            {
+                "title": "3秒后开始机制",
+                "timestamp": "01:06"
+            }
+        ]
+    },
+
+    {
+        "stage_name": "第 2 次机制",
+        "details": [
+            {
+                "title": "风传雷",
+                "timestamp": "02:06"
+            },
+            {
+                "title": "第 2 次全屏",
+                "timestamp": "02:26"
+            },
+            {
+                "title": "3 秒后开始机制(雷神抓风T), 打断雷神, 雷传风",
+                "timestamp": "02:29"
+            }
+        ]
+    },
+
+    {
+        "stage_name": "第 3 次机制",
+        "details": [
+            {
+                "title": "雷传风",
+                "timestamp": "03:48"
+            },
+            {
+                "title": "风T拉远重置防后撤步",
+                "timestamp": "03:53"
+            },
+            {
+                "title": "第 3 次全屏",
+                "timestamp": "04:08"
+            },
+            {
+                "title": "3 秒后开始机制",
+                "timestamp": "04:11"
+            }
+        ]
+    },
+
+    {
+        "stage_name": "第 4 次机制",
+        "details": [
+            {
+                "title": "风传雷",
+                "timestamp": "05:10"
+            },
+            {
+                "title": "第 4 次全屏",
+                "timestamp": "05:30"
+            },
+            {
+                "title": "3 秒后开始机制(雷神抓风T), 打断雷神, 雷传风",
+                "timestamp": "05:33"
+            }
+        ]
+    },
+
+    {
+        "stage_name": "第 5 次机制",
+        "details": [
+            {
+                "title": "雷传风",
+                "timestamp": "06:52"
+            },
+            {
+                "title": "风T拉远重置防后撤步",
+                "timestamp": "06:57"
+            },
+            {
+                "title": "第 5 次全屏",
+                "timestamp": "07:12"
+            },
+            {
+                "title": "3 秒后开始机制, 开始机制",
+                "timestamp": "07:15"
+            }
+        ]
+    },
+
+    {
+        "stage_name": "第 6 次机制",
+        "details": [
+            {
+                "title": "风传雷",
+                "timestamp": "08:14"
+            },
+            {
+                "title": "第 6 次全屏",
+                "timestamp": "08:34"
+            },
+            {
+                "title": "3 秒后开始机制(雷神抓风T), 打断雷神, 雷传风",
+                "timestamp": "08:37"
+            }
+        ]
+    }
+]
