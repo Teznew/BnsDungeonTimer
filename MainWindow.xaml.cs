@@ -23,6 +23,7 @@ namespace BnsDungeonTimer
         protected override void OnSourceInitialized(EventArgs e)
         {
             base.OnSourceInitialized(e);
+            OutputTextBox.Text = "按 Shift+F1 开始\n按 Shift+F2 重置";
             var helper = new WindowInteropHelper(this);
             var source = HwndSource.FromHwnd(helper.Handle);
             source.AddHook(WndProc);
@@ -154,7 +155,7 @@ namespace BnsDungeonTimer
                             if (timeSpan < timestamp)
                             {
                                 await Task.Delay(1000); // 每次等待1秒再检查
-                                UpdateOutputTextBox($"{stage.StageName}\n\t倒数: {(int)(timestamp.TotalSeconds - timeSpan.TotalSeconds)}s {detail.Title}");
+                                UpdateOutputTextBox($"{stage.StageName}\n倒数: {(int)(timestamp.TotalSeconds - timeSpan.TotalSeconds)}s {detail.Title}");
                             }
                         }
                         while (timeSpan < timestamp);
@@ -163,7 +164,7 @@ namespace BnsDungeonTimer
             }
             this.Dispatcher.Invoke(() =>
             {
-                OutputTextBox.Text = "按Shift+F1开始";
+                OutputTextBox.Text = "按 Shift+F1 开始\n按 Shift+F2 重置";
             });
         }
 
